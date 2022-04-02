@@ -22,6 +22,7 @@ public class SampleController {
 	public StringResponse customHello(@RequestParam String message) {
 	return new StringResponse("Custom " + message);
 	
+	
 	}
 	
 	
